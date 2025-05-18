@@ -99,13 +99,13 @@ Here is a quick demo of the Telegram assistant in action:
 
 ## Project Structure
 
-faq-floripa/
-├── src/ # Core source code (retriever, bot logic, etc)
-├── data/ # Input data Json
-├── img/ # Images and GIFs used in README
-├── pyproject.toml # Poetry dependencies
-├── Dockerfile # Container setup
-├── README.md
+* `faq-floripa/`
+  * `src/`: Core source code (retriever, bot logic, etc.)
+  * `data/`: Input data JSON
+  * `img/`: Images and GIFs used in README
+  * `pyproject.toml`: Poetry dependencies
+  * `Dockerfile`: Container setup
+  * `README.md`
 
 ---
 
