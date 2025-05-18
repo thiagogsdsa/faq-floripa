@@ -9,8 +9,8 @@
 Travelers often arrive at a destination without clear answers to basic questions:
 
 > *“What are the best beaches for families?”*
-> *“What can I do on a rainy day in Floripa?”*
-> *“Is there public transport to Campeche?”*
+ *“What can I do on a rainy day in Floripa?”*
+ *“Is there public transport to Campeche?”*
 
 This project builds an intelligent assistant that helps answer those questions by combining a **large language model (LLM)** with a **custom knowledge base** tailored to **Florianópolis tourism** — using a **Retrieval-Augmented Generation (RAG)** architecture.
 
