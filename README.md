@@ -130,6 +130,7 @@ sudo docker run -d --name faq-bot faq-floripa
 
 **Thiago Guimarães**
 
-* 🌐 [LinkedIn](https://www.linkedin.com/in/thiagodatascientist/)
+
+* 🌐[LinkedIn](https://www.linkedin.com/in/thiagodatascientist/)
 * 📧 Email: [thiago.guimaraes.sto@gmail.com](mailto:thiago.guimaraes.sto@gmail.com)
-* 📱 WhatsApp: [+55 48 99673-7618](wa.me/5548996737618)
+* 📱 WhatsApp: [+55 48 99673-7618](https://wa.me/5548996737618)
