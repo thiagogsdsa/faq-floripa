@@ -1,6 +1,6 @@
 # FAQ-Floripa: A Smart Tourism Assistant Powered by RAG
 
-![FAQ-Floripa](img/2.png)
+![FAQ-Floripa](img/1.png)
 
 ## Business Understanding
 
