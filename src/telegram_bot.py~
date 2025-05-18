@@ -1,0 +1,304 @@
+from retrieval import *
+from langdetect import detect
+import logging
+from telegram import Update
+from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, MessageHandler, filters
+import os
+import json 
+from telegram import ReplyKeyboardMarkup, Update
+from telegram.ext import (
+    ApplicationBuilder,
+    CommandHandler,
+    MessageHandler,
+    filters,
+    ConversationHandler,
+    ContextTypes
+)
+
+
+LANGUAGE, QUESTION = range(2)
+#https://web.telegram.org/k/#@floripabot
+# Initialize logging
+
+
+async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    await update.message.reply_text(
+        "Please, you can ask about Florianopolis in English or Portuguese.\n"
+        "Por favor, você pode perguntar sobre Florianópolis em Inglês ou Português."
+    )
+
+async def answer_question(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    user_question = update.message.text
+    print(f"User asked: {user_question}")
+
+    try:
+        detected_lang = detect(user_question)
+        print(f"Detected language: {detected_lang}")
+    except:
+        detected_lang = 'en'  # padrão para inglês se erro
+
+    # Mapear os códigos do langdetect para os que seu retriever usa
+    if detected_lang.startswith('pt'):
+        user_language = 'pt'
+    else:
+        user_language = 'en'
+
+    # Criar retriever e buscar respostas para qualquer idioma detectado
+    retriever = FAQRetrieverTFIDF(faq_texts, language=user_language)  # ou 'en', ou None
+    results = retriever.retrieve(user_question, top_k=1)
+
+    if results:
+        best = results[0]
+        await update.message.reply_text(f"Answer:\n{best['answer']}")
+    else:
+        await update.message.reply_text("Sorry, no good answer found.")
+
+    await update.message.reply_text(
+        "You can ask another question or send /start to restart."
+        "\nVocê pode fazer outra pergunta ou enviar /start para reiniciar."
+    )
+#async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
+#    reply_keyboard = [['English', 'Portuguese']]
+#    await update.message.reply_text(
+#        "Please choose your language / Por favor escolha seu idioma",
+#        reply_markup=ReplyKeyboardMarkup(reply_keyboard, one_time_keyboard=True)
+#    )
+#    return LANGUAGE
+#
+#
+#async def choose_language(update: Update, context: ContextTypes.DEFAULT_TYPE):
+#    lang = update.message.text.lower()
+#    if lang == 'english':
+#        context.user_data['language'] = 'en'
+#       await update.message.reply_text("You chose English. Please type your question.")
+#    elif lang == 'portuguese':
+#        context.user_data['language'] = 'pt'
+#        update.message.reply_text("Você escolheu Português. Por favor, digite sua pergunta.")
+#    else:
+#       await update.message.reply_text("Invalid choice. Please choose English or Portuguese.")
+#        return LANGUAGE
+#    return QUESTION
+#
+#
+#async def answer_question(update: Update, context: ContextTypes.DEFAULT_TYPE):
+#    user_language = context.user_data.get('language', None)
+#    question = update.message.text
+#
+#    # Usa seu retriever passando a linguagem escolhida
+#    retriever = FAQRetrieverTFIDF(faq_texts, language=user_language, model_name='paraphrase-multilingual-MiniLM-L12-v2')
+#
+#    results = retriever.retrieve(question, top_k=1, language=user_language)
+#
+#
+#    if results:
+#        best = results[0]
+#        await update.message.reply_text(f"Answer:\n{best['answer']}")
+#    else:
+#        await update.message.reply_text("Sorry, no good answer found.")
+#
+#    # Continua a conversa
+#    await update.message.reply_text("You can ask another question or send /start to choose language again.")
+#    return QUESTION
+#
+#async def cancel(update: Update, context: ContextTypes.DEFAULT_TYPE):
+#    await update.message.reply_text('Bye! Send /start to begin again.')
+#    return ConversationHandler.END
+#
+
+logging.basicConfig(
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    level=logging.INFO
+)
+
+base_dir = os.path.dirname(os.path.abspath(__file__))
+faq_path = os.path.join(base_dir, "..", "data", "faq.json")
+with open(faq_path, "r", encoding="utf-8") as f:
+    faq_texts = json.load(f)
+
+# Initialize your retriever
+#faq_retriever = FAQRetriever(faq_texts)  # language=None means search 'pt' and 'en'
+
+# Telegram handlers
+#async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
+#    await update.message.reply_text(
+#        "Hi! Send me your question, and I'll try to find the best FAQ answer for you."
+#    )
+
+#async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
+#    user_question = update.message.text
+#    # Optional: detect language or let user specify with a command
+#    results = faq_retriever.retrieve(user_question, top_k=3, language=None)
+#    
+#    if not results:
+#        await update.message.reply_text("Sorry, I couldn't find an answer to your question.")
+#        return
+#    
+#    reply_text = ""
+#    for res in results:
+#        reply_text += f"Q: {res['question']}\nA: {res['answer']}\nScore: {res['score']:.2f}\n\n"
+#    
+#    await update.message.reply_text(reply_text.strip())
+
+
+
+#user_languages = {}
+#
+#async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
+#    chat_id = update.message.chat_id
+#    user_languages[chat_id] = None  # reset or initialize
+#
+#    message = (
+#        "🌐 Please choose your language / Por favor, escolha seu idioma:\n\n"
+#        "Type: English or Portuguese"
+#    )
+#    await update.message.reply_text(message)
+#
+#async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
+#    chat_id = update.message.chat_id
+#    user_input = update.message.text.strip().lower()
+#
+#    # Define idioma do usuário
+#    if user_languages.get(chat_id) is None:
+#        if "english" in user_input:
+#            user_languages[chat_id] = "en"
+#            await update.message.reply_text("✅ Language set to English. Ask me something.")
+#            return
+#        elif "portuguese" in user_input or "português" in user_input:
+#            user_languages[chat_id] = "pt"
+#            await update.message.reply_text("✅ Idioma definido como Português. Pergunte algo.")
+#            return
+#        else:
+#            await update.message.reply_text("❌ Invalid option. Please type English or Portuguese.")
+#            return
+#
+#    # Após idioma definido, você pode fazer retrieve
+#    language = user_languages[chat_id]
+#    results = faq_retriever.retrieve(update.message.text)
+#
+#    if results:
+#        response = "\n\n".join([f"✅ {r['answer']} (score: {r['score']:.3f})" for r in results])
+#    else:
+#        response = "❌ Desculpe, não encontrei nenhuma resposta relevante." if language == "pt" else "❌ Sorry, I couldn't find a relevant answer."
+#
+#    await update.message.reply_text(response)
+
+#async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
+#    user_question = update.message.text
+#    print(f"🟡 Pergunta do usuário: {user_question}")
+#
+#    results = faq_retriever.retrieve(user_question)
+#
+#    if results:
+#        # Se a resposta for um dicionário com 'answer' e 'score'
+#        response = "\n\n".join(
+#            [f"✅ {r['answer']} (score: {r['score']:.3f})" for r in results]
+#        )
+#    else:
+#        response = "❌ Desculpe, não encontrei nenhuma resposta relevante."
+#
+#    print(f"📤 Enviando resposta: {response}")
+#    await update.message.reply_text(response)
+#
+def main():
+    bot_token = "7786049028:AAF7ds4t0fPxrMEjN4keIubpnoH07jh3Q7w"  # Replace with your bot token
+    #updater = Updater("YOUR_TOKEN_HERE")
+    application = ApplicationBuilder().token(bot_token).build()
+    application.add_handler(CommandHandler("start", start))
+    application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, answer_question))
+
+    application.run_polling()
+    #dispatcher = updater.dispatcher
+    
+#    conv_handler = ConversationHandler(
+#        entry_points=[CommandHandler('start', start)],
+#        states={
+#            LANGUAGE: [MessageHandler(filters.TEXT & ~filters.COMMAND, choose_language)],
+#            QUESTION: [MessageHandler(filters.TEXT & ~filters.COMMAND, answer_question)],
+#        },
+#        fallbacks=[CommandHandler('cancel', cancel)]
+#    )
+#
+#    #dispatcher.add_handler(conv_handler) -> com uipdate 
+#    application.add_handler(conv_handler)
+#    print("Bot started...")
+#
+#    application.run_polling()
+
+    #updater.start_polling()
+    #updater.idle()
+
+
+if __name__ == '__main__':
+    main()
+
+
+
+
+
+
+
+
+
+#    app = ApplicationBuilder().token(bot_token).build()
+#
+#    app.add_handler(CommandHandler("start", start))
+#    app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
+#
+#    print("Bot started...")
+#    app.run_polling()
+#
+#if __name__ == "__main__":
+#    main()
+
+
+# Load FAQs from your DB or a JSON file
+#def load_faqs_from_db():
+#    # Replace this with your actual DB loading logic
+#    return [
+#        {"id": 1, "question_pt": "Como faço para resetar minha senha?", "answer_pt": "Clique em 'Esqueci a senha'."},
+#        {"id": 2, "question_pt": "Qual o horário de atendimento?", "answer_pt": "Atendemos das 9h às 18h."},
+#        # Add English or other languages if you want
+#        {"id": 3, "question_en": "How do I reset my password?", "answer_en": "Click on 'Forgot password'."}
+#    ]
+#
+#faq_texts = load_faqs_from_db()
+#
+#
+#
+#from telegram import Update, Bot
+#from telegram.ext import Updater, CommandHandler, MessageHandler, filters, CallbackContext
+#from retrieval import FAQRetriever
+#
+# Example: Load your FAQs (texts only) here
+#faq_texts = [
+#    "What is the trash collection schedule in Florianópolis?",
+#    "How do I pay my municipal taxes?",
+#    "Where are the vaccination centers located?"
+#    # ... load from DB or JSON
+#]
+#
+#retriever = FAQRetriever(faq_texts)
+#
+#def start(update: Update, context: CallbackContext):
+#    update.message.reply_text("Hello! Ask me anything about Florianópolis services.")
+#
+#def handle_question(update: Update, context: CallbackContext):
+#    question = update.message.text
+#    results = retriever.retrieve(question)
+#    best_match, score = results[0]
+#    if score > 0.7:
+#        update.message.reply_text(f"I found this answer:\n{best_match}")
+#    else:
+#        update.message.reply_text("Sorry, I couldn't find a good answer. A human will contact you soon.")
+#
+#def main():
+#    updater = Updater("YOUR_TELEGRAM_BOT_TOKEN")
+#    dp = updater.dispatcher
+#    dp.add_handler(CommandHandler("start", start))
+#    dp.add_handler(MessageHandler(filters.text & ~filters.command, handle_question))
+#    updater.start_polling()
+#    updater.idle()
+#
+#if __name__ == "__main__":
+#    main()
+

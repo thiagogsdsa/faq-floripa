@@ -1,0 +1,489 @@
+[
+  {
+    "id": "faq001",
+    "question_pt": "Onde fica Florianópolis e por que é um destino turístico famoso?",
+    "answer_pt": "Florianópolis é a capital de Santa Catarina, no sul do Brasil. É famosa por suas belas praias, trilhas, culinária típica com frutos do mar e uma vibrante vida cultural, atraindo turistas do mundo inteiro.",
+    "question_en": "Where is Florianópolis located and why is it a popular tourist destination?",
+    "answer_en": "Florianópolis is the capital of Santa Catarina state in southern Brazil. It is known for its stunning beaches, hiking trails, seafood cuisine, and vibrant culture, making it a favorite spot for tourists from around the world."
+  },
+  {
+    "id": "faq002",
+    "question_pt": "Quais são as praias mais famosas de Florianópolis?",
+    "answer_pt": "Entre as praias mais famosas de Florianópolis estão a Praia Mole, conhecida pelo surf e público jovem; a Joaquina, ideal para esportes e belas paisagens; e a Jurerê Internacional, famosa por sua estrutura e vida noturna.",
+    "question_en": "What are the most famous beaches in Florianópolis?",
+    "answer_en": "Some of the most famous beaches in Florianópolis are Praia Mole, known for surfing and a young crowd; Joaquina, great for sports and scenic views; and Jurerê Internacional, famous for its upscale beach clubs and nightlife."
+  },
+  {
+    "id": "faq003",
+    "question_pt": "Quais passeios você recomenda em Florianópolis?",
+    "answer_pt": "Recomendo visitar a Costa da Lagoa de barco, explorar o centro histórico, fazer trilhas como a da Lagoinha do Leste e conhecer as dunas da Joaquina. Também vale visitar o Projeto Tamar e o Mercado Público.",
+    "question_en": "What tours do you recommend in Florianópolis?",
+    "answer_en": "I recommend taking a boat trip to Costa da Lagoa, exploring the historic downtown, hiking trails like Lagoinha do Leste, and visiting the Joaquina sand dunes. The Tamar Project and the Public Market are also great stops."
+  },
+  {
+    "id": "faq004",
+    "question_pt": "Qual é a melhor época para visitar Florianópolis?",
+    "answer_pt": "A melhor época é entre dezembro e março, durante o verão. O clima está quente e ideal para aproveitar as praias e eventos culturais. Para evitar multidões, os meses de novembro e abril também são boas opções.",
+    "question_en": "What is the best time to visit Florianópolis?",
+    "answer_en": "The best time is from December to March, during summer. The weather is warm, perfect for enjoying the beaches and cultural events. If you prefer fewer crowds, November and April are also good options."
+  },
+  {
+    "id": "faq005",
+    "question_pt": "O que fazer em Florianópolis em dias de chuva?",
+    "answer_pt": "Em dias de chuva, você pode visitar o Museu Histórico de Santa Catarina, explorar o Mercado Público, experimentar pratos locais em restaurantes típicos ou relaxar em cafés aconchegantes com vista para a cidade.",
+    "question_en": "What can I do in Florianópolis on rainy days?",
+    "answer_en": "On rainy days, you can visit the Historical Museum of Santa Catarina, explore the Public Market, try local dishes at traditional restaurants, or relax in cozy cafés with a city view."
+  },
+  {
+    "id": "faq006",
+    "question_pt": "Florianópolis é segura para turistas?",
+    "answer_pt": "De forma geral, Florianópolis é considerada uma cidade segura para turistas, especialmente nas áreas turísticas. Como em qualquer destino, é importante estar atento e evitar locais isolados à noite.",
+    "question_en": "Is Florianópolis safe for tourists?",
+    "answer_en": "In general, Florianópolis is considered a safe city for tourists, especially in the tourist areas. As with any destination, it’s important to stay alert and avoid isolated places at night."
+  },
+  {
+    "id": "faq007",
+    "question_pt": "Quais são os pratos típicos de Florianópolis?",
+    "answer_pt": "Os pratos típicos incluem sequência de camarão, ostras frescas cultivadas na própria ilha, tainha assada e o tradicional pirão de peixe. A gastronomia local tem forte influência açoriana.",
+    "question_en": "What are the typical dishes in Florianópolis?",
+    "answer_en": "Typical dishes include shrimp sequence, fresh oysters farmed on the island, grilled mullet, and the traditional fish pirão. The local cuisine has strong Azorean influence."
+  },
+  {
+    "id": "faq008",
+    "question_pt": "O que fazer na Lagoa da Conceição?",
+    "answer_pt": "Na Lagoa da Conceição você pode andar de pedalinho, praticar stand up paddle, curtir os bares e restaurantes da orla, e visitar o centrinho com lojas e cafés charmosos.",
+    "question_en": "What can I do at Lagoa da Conceição?",
+    "answer_en": "At Lagoa da Conceição you can ride pedal boats, do stand-up paddle, enjoy the lakeside bars and restaurants, and explore the charming downtown area with shops and cafés."
+  },
+  {
+    "id": "faq009",
+    "question_pt": "Qual trilha você recomenda para vistas bonitas?",
+    "answer_pt": "A trilha da Lagoinha do Leste é uma das mais bonitas, com vista panorâmica e uma praia selvagem no final. Outra opção é a trilha do Morro da Coroa, no Pântano do Sul.",
+    "question_en": "Which trail do you recommend for beautiful views?",
+    "answer_en": "The Lagoinha do Leste trail is one of the most beautiful, offering panoramic views and ending at a wild beach. Another great option is the Morro da Coroa trail in Pântano do Sul."
+  },
+  {
+    "id": "faq010",
+    "question_pt": "Florianópolis tem vida noturna?",
+    "answer_pt": "Sim! Florianópolis tem vida noturna agitada, especialmente em Jurerê Internacional, na Lagoa da Conceição e no centro. Você encontrará bares, baladas e música ao vivo.",
+    "question_en": "Does Florianópolis have nightlife?",
+    "answer_en": "Yes! Florianópolis has a lively nightlife, especially in Jurerê Internacional, Lagoa da Conceição, and downtown. You’ll find bars, clubs, and live music venues."
+  },
+  {
+    "id": "faq011",
+    "question_pt": "Vale a pena alugar carro em Florianópolis?",
+    "answer_pt": "Sim, alugar carro é uma boa opção para explorar bem a ilha, já que muitas praias e atrações não são bem conectadas por transporte público.",
+    "question_en": "Is it worth renting a car in Florianópolis?",
+    "answer_en": "Yes, renting a car is a good option to explore the island, since many beaches and attractions are not well connected by public transportation."
+  },
+  {
+    "id": "faq012",
+    "question_pt": "Quais são as melhores praias para surfar em Florianópolis?",
+    "answer_pt": "As praias mais procuradas por surfistas são a Praia Mole, Joaquina e Campeche. Elas oferecem boas ondas durante o ano todo e são palco de campeonatos nacionais e internacionais.",
+    "question_en": "What are the best beaches for surfing in Florianópolis?",
+    "answer_en": "The most popular beaches for surfers are Praia Mole, Joaquina, and Campeche. They offer good waves all year round and host national and international surf competitions."
+  },
+  {
+    "id": "faq013",
+    "question_pt": "Quais atrações culturais existem em Florianópolis?",
+    "answer_pt": "Florianópolis possui atrações como o Museu Histórico de Santa Catarina no Palácio Cruz e Sousa, o Mercado Público com música e artesanato, além de festas tradicionais como o Boi de Mamão.",
+    "question_en": "What cultural attractions are there in Florianópolis?",
+    "answer_en": "Florianópolis has attractions like the Santa Catarina Historical Museum in the Cruz e Sousa Palace, the Public Market with music and crafts, and traditional festivities like Boi de Mamão."
+  },
+  {
+    "id": "faq014",
+    "question_pt": "Como é o transporte público em Florianópolis?",
+    "answer_pt": "O transporte público em Florianópolis é feito por ônibus. Embora seja possível se locomover com eles, os horários e conexões podem ser limitados para áreas mais afastadas ou praias.",
+    "question_en": "How is public transportation in Florianópolis?",
+    "answer_en": "Public transportation in Florianópolis is done by bus. While you can get around using them, schedules and connections may be limited for remote areas or beaches."
+  },
+  {
+    "id": "faq015",
+    "question_pt": "Quais são os melhores lugares para ver o pôr do sol na ilha?",
+    "answer_pt": "Lugares populares para ver o pôr do sol são a orla da Lagoa da Conceição, o mirante da Praia da Joaquina, o Ribeirão da Ilha e a beira-mar Norte.",
+    "question_en": "What are the best spots to watch the sunset on the island?",
+    "answer_en": "Popular places to watch the sunset are the Lagoa da Conceição shore, the Joaquina beach viewpoint, Ribeirão da Ilha, and Beira-Mar Norte."
+  },
+  {
+    "id": "faq016",
+    "question_pt": "Onde encontrar trilhas ecológicas em Florianópolis?",
+    "answer_pt": "Florianópolis tem diversas trilhas ecológicas, como a da Costa da Lagoa, Lagoinha do Leste, Gravatá, Morro das Aranhas e Trilha do Saquinho. São ideais para contato com a natureza.",
+    "question_en": "Where can I find ecological trails in Florianópolis?",
+    "answer_en": "Florianópolis has many ecological trails such as Costa da Lagoa, Lagoinha do Leste, Gravatá, Morro das Aranhas, and Trilha do Saquinho. They're ideal for connecting with nature."
+  },
+  {
+    "id": "faq017",
+    "question_pt": "Quais são os bairros mais recomendados para se hospedar em Florianópolis?",
+    "answer_pt": "Os bairros mais procurados por turistas são a Lagoa da Conceição, Campeche, Canasvieiras e o Centro. Cada um oferece diferentes experiências, desde vida noturna até tranquilidade e praias próximas.",
+    "question_en": "What are the most recommended neighborhoods to stay in Florianópolis?",
+    "answer_en": "Popular neighborhoods for tourists include Lagoa da Conceição, Campeche, Canasvieiras, and Downtown. Each offers different experiences, from nightlife to tranquility and beach access."
+  },
+  {
+    "id": "faq018",
+    "question_pt": "Florianópolis é uma cidade segura para turistas?",
+    "answer_pt": "Florianópolis é considerada relativamente segura, especialmente em áreas turísticas. No entanto, como em qualquer cidade, é bom evitar locais isolados à noite e sempre cuidar de seus pertences.",
+    "question_en": "Is Florianópolis a safe city for tourists?",
+    "answer_en": "Florianópolis is considered relatively safe, especially in tourist areas. However, like any city, it's wise to avoid isolated areas at night and keep an eye on your belongings."
+  },
+  {
+    "id": "faq019",
+    "question_pt": "Existem passeios de barco disponíveis na ilha?",
+    "answer_pt": "Sim, há diversos passeios de barco, como para a Ilha do Campeche, Baía dos Golfinhos e Costa da Lagoa. Eles oferecem vistas incríveis e contato direto com a natureza.",
+    "question_en": "Are there boat tours available on the island?",
+    "answer_en": "Yes, there are several boat tours, such as to Campeche Island, Dolphin Bay, and Costa da Lagoa. They offer stunning views and direct contact with nature."
+  },
+  {
+    "id": "faq020",
+    "question_pt": "É possível visitar outras ilhas próximas a Florianópolis?",
+    "answer_pt": "Sim! Além da Ilha do Campeche, você pode visitar a Ilha de Anhatomirim, onde há visitas guiadas históricas, e a Ilha das Aranhas, ótima para mergulho.",
+    "question_en": "Is it possible to visit other islands near Florianópolis?",
+    "answer_en": "Yes! Besides Campeche Island, you can visit Anhatomirim Island, which offers historical guided tours, and Aranhas Island, great for diving."
+  },
+  {
+    "id": "faq021",
+    "question_pt": "Florianópolis é uma boa opção para viajar com crianças?",
+    "answer_pt": "Sim! A cidade tem praias calmas como Jurerê e Daniela, além de trilhas leves, parques e atividades culturais que agradam toda a família.",
+    "question_en": "Is Florianópolis a good option to travel with kids?",
+    "answer_en": "Yes! The city has calm beaches like Jurerê and Daniela, as well as easy trails, parks, and cultural activities that are great for families."
+  },
+  {
+    "id": "faq022",
+    "question_pt": "Há passeios guiados em Florianópolis?",
+    "answer_pt": "Sim. Existem tours guiados por agências locais que incluem visitas às principais praias, centros históricos e experiências como aulas de surfe ou culinária típica.",
+    "question_en": "Are there guided tours in Florianópolis?",
+    "answer_en": "Yes. Local agencies offer guided tours that include visits to main beaches, historic centers, and experiences like surfing lessons or traditional cuisine workshops."
+  },
+  {
+    "id": "faq023",
+    "question_pt": "Qual a melhor época para visitar Florianópolis?",
+    "answer_pt": "A melhor época é entre dezembro e março, durante o verão, quando as praias estão mais convidativas. No entanto, a cidade também é encantadora na primavera e no início do outono, com clima mais ameno e menos turistas.",
+    "question_en": "What is the best time to visit Florianópolis?",
+    "answer_en": "The best time is between December and March during the summer, when the beaches are most inviting. However, spring and early autumn are also great, with milder weather and fewer tourists."
+  },
+  {
+    "id": "faq024",
+    "question_pt": "Como é o clima em Florianópolis durante o ano?",
+    "answer_pt": "Florianópolis tem clima subtropical úmido, com verões quentes e invernos suaves. A média anual gira em torno de 21°C, mas pode passar dos 30°C no verão.",
+    "question_en": "What is the weather like in Florianópolis throughout the year?",
+    "answer_en": "Florianópolis has a humid subtropical climate, with hot summers and mild winters. The annual average temperature is around 21°C, but it can exceed 30°C in the summer."
+  },
+  {
+    "id": "faq025",
+    "question_pt": "Quais são os pratos típicos de Florianópolis?",
+    "answer_pt": "Os destaques da gastronomia local incluem ostras frescas, sequência de camarão, tainha assada e o famoso pirão de peixe. A cidade é referência em frutos do mar.",
+    "question_en": "What are the typical dishes of Florianópolis?",
+    "answer_en": "Local gastronomy highlights include fresh oysters, shrimp sequence, grilled mullet, and the famous fish pirão (a traditional fish stew). The city is renowned for its seafood."
+  },
+  {
+    "id": "faq026",
+    "question_pt": "Onde encontrar artesanato típico em Florianópolis?",
+    "answer_pt": "O artesanato típico pode ser encontrado no Mercado Público, na Feira da Lagoa e em lojinhas nas praias. Os produtos incluem renda de bilro, cerâmica e objetos feitos com conchas e madeira.",
+    "question_en": "Where can I find traditional crafts in Florianópolis?",
+    "answer_en": "Traditional crafts can be found at the Public Market, Lagoa Fair, and beachside shops. Products include bobbin lace, ceramics, and items made from shells and wood."
+  },
+  {
+    "id": "faq027",
+    "question_pt": "Quais são os melhores lugares para tirar fotos em Florianópolis?",
+    "answer_pt": "Entre os pontos mais fotogênicos estão o mirante da Lagoa da Conceição, a ponte Hercílio Luz, a Praia do Campeche com a Ilha ao fundo, e as dunas da Joaquina ao pôr do sol.",
+    "question_en": "What are the best places to take photos in Florianópolis?",
+    "answer_en": "Top photo spots include the Lagoa da Conceição viewpoint, Hercílio Luz Bridge, Campeche Beach with the island in the background, and the Joaquina dunes at sunset."
+  },
+  {
+    "id": "faq028",
+    "question_pt": "Quais trilhas de ecoturismo existem em Florianópolis?",
+    "answer_pt": "Florianópolis tem trilhas incríveis como a da Lagoinha do Leste, a trilha da Costa da Lagoa e a do Gravatá. Todas oferecem contato com a natureza, visuais deslumbrantes e acesso a praias escondidas.",
+    "question_en": "What ecotourism trails are available in Florianópolis?",
+    "answer_en": "Florianópolis has amazing trails like Lagoinha do Leste, Costa da Lagoa, and Gravatá. They offer contact with nature, stunning views, and access to hidden beaches."
+  },
+  {
+    "id": "faq029",
+    "question_pt": "Quais esportes posso praticar em Florianópolis?",
+    "answer_pt": "A cidade é ideal para surfe, sandboard nas dunas da Joaquina, stand up paddle na Lagoa da Conceição, trilhas e ciclismo. É um destino excelente para quem gosta de atividades ao ar livre.",
+    "question_en": "What sports can I practice in Florianópolis?",
+    "answer_en": "The city is perfect for surfing, sandboarding at Joaquina dunes, stand up paddle at Lagoa da Conceição, hiking, and cycling. It's a great destination for outdoor activities."
+  },
+  {
+    "id": "faq030",
+    "question_pt": "Como se locomover em Florianópolis sem carro?",
+    "answer_pt": "É possível usar ônibus, aplicativos de transporte como Uber, ou alugar bicicletas em alguns pontos. No verão, prepare-se para trânsito intenso. Muitas atrações são acessíveis caminhando nas regiões turísticas.",
+    "question_en": "How to get around Florianópolis without a car?",
+    "answer_en": "You can use buses, ride-hailing apps like Uber, or rent bikes in some areas. Traffic can be heavy during summer, but many attractions are walkable in tourist regions."
+  },
+  {
+    "id": "faq031",
+    "question_pt": "Qual sugestão de roteiro para 3 dias em Florianópolis?",
+    "answer_pt": "Dia 1: Centro histórico, Mercado Público e pôr do sol na Beira-Mar. Dia 2: Praias do leste como Joaquina e Campeche, com trilha opcional. Dia 3: Lagoa da Conceição e Costa da Lagoa com passeio de barco.",
+    "question_en": "What is a suggested 3-day itinerary in Florianópolis?",
+    "answer_en": "Day 1: Historic downtown, Public Market, and sunset at Beira-Mar. Day 2: East side beaches like Joaquina and Campeche, with optional trail. Day 3: Lagoa da Conceição and Costa da Lagoa with a boat ride."
+  },
+  {
+    "id": "faq032",
+    "question_pt": "Qual sugestão de roteiro para 5 dias em Florianópolis?",
+    "answer_pt": "Dia 1: Centro histórico e pôr do sol na Beira-Mar. Dia 2: Praias do norte como Jurerê e Canasvieiras. Dia 3: Trilha até a Lagoinha do Leste. Dia 4: Passeio de barco na Costa da Lagoa. Dia 5: Dunas da Joaquina e visita à Lagoa da Conceição.",
+    "question_en": "What is a suggested 5-day itinerary in Florianópolis?",
+    "answer_en": "Day 1: Historic downtown and sunset at Beira-Mar. Day 2: Northern beaches like Jurerê and Canasvieiras. Day 3: Hike to Lagoinha do Leste. Day 4: Boat tour to Costa da Lagoa. Day 5: Sand dunes at Joaquina and visit Lagoa da Conceição."
+  },
+  {
+    "id": "faq033",
+    "question_pt": "Onde se hospedar em Florianópolis?",
+    "answer_pt": "Para agito e vida noturna, opte pela Lagoa da Conceição. Para tranquilidade, escolha o sul da ilha como Campeche ou Armação. Para famílias e estrutura turística, o norte da ilha como Canasvieiras é ideal.",
+    "question_en": "Where to stay in Florianópolis?",
+    "answer_en": "For nightlife and buzz, stay at Lagoa da Conceição. For tranquility, try the south of the island like Campeche or Armação. For families and tourist infrastructure, northern areas like Canasvieiras are ideal."
+  },
+  {
+    "id": "faq034",
+    "question_pt": "Como é a vida noturna em Florianópolis?",
+    "answer_pt": "A cidade oferece bares e baladas, especialmente na Lagoa da Conceição, no Centro e em Jurerê Internacional. Durante o verão, beach clubs e festas ao ar livre são bem populares.",
+    "question_en": "How is the nightlife in Florianópolis?",
+    "answer_en": "The city offers bars and clubs, especially in Lagoa da Conceição, downtown, and Jurerê Internacional. During summer, beach clubs and outdoor parties are very popular."
+  },
+  {
+    "id": "faq035",
+    "question_pt": "O que fazer em Florianópolis com crianças?",
+    "answer_pt": "Praias calmas como Daniela e Barra da Lagoa são ideais. O Projeto Tamar é uma ótima opção educativa. Passeios de barco e trilhas leves também são ótimas atividades em família.",
+    "question_en": "What to do in Florianópolis with children?",
+    "answer_en": "Calm beaches like Daniela and Barra da Lagoa are perfect. Projeto Tamar offers an educational experience. Boat tours and easy trails are also great family activities."
+  },
+  {
+    "id": "faq036",
+    "question_pt": "Onde comer em Florianópolis e o que experimentar?",
+    "answer_pt": "Florianópolis é famosa pelos frutos do mar. Experimente sequência de camarão e ostras frescas em Ribeirão da Ilha. Bares na Lagoa da Conceição e restaurantes no Mercado Público também são excelentes opções.",
+    "question_en": "Where to eat in Florianópolis and what to try?",
+    "answer_en": "Florianópolis is famous for seafood. Try shrimp platters and fresh oysters in Ribeirão da Ilha. Lagoa da Conceição bars and restaurants at the Public Market are also great choices."
+  },
+  {
+    "id": "faq037",
+    "question_pt": "Qual a melhor época para visitar Florianópolis?",
+    "answer_pt": "A melhor época é entre dezembro e março, quando o clima está quente e as praias são mais aproveitadas. Para quem prefere menos movimento, abril e novembro ainda oferecem bom tempo e preços mais baixos.",
+    "question_en": "What is the best time to visit Florianópolis?",
+    "answer_en": "The best time is between December and March for warm weather and beach activities. For fewer crowds and better prices, April and November are also good options."
+  },
+  {
+    "id": "faq038",
+    "question_pt": "Quanto custa, em média, uma viagem para Florianópolis?",
+    "answer_pt": "Os custos variam conforme a temporada. Em média, uma refeição simples custa R$ 30-50, hospedagem R$ 150-300 por dia e transporte R$ 100-150 por dia, considerando Uber ou aluguel de carro.",
+    "question_en": "How much does a trip to Florianópolis cost on average?",
+    "answer_en": "Costs vary by season. On average: meals cost R$30-50, lodging R$150-300 per day, and transportation R$100-150 per day (using Uber or rental car)."
+  },
+  {
+    "id": "faq039",
+    "question_pt": "O que fazer em Florianópolis em dias de chuva?",
+    "answer_pt": "Você pode visitar museus como o Palácio Cruz e Sousa, o Mercado Público, relaxar em cafés, experimentar frutos do mar em restaurantes cobertos, ou visitar o Projeto Tamar. Também há shoppings com cinemas e lazer.",
+    "question_en": "What to do in Florianópolis on rainy days?",
+    "answer_en": "You can visit museums like Palácio Cruz e Sousa, the Public Market, relax in cafés, enjoy seafood at indoor restaurants, or visit Projeto Tamar. There are also shopping malls with cinemas and entertainment."
+  },
+   {
+    "id": "faq040",
+    "question_pt": "Quais trilhas recomendadas em Florianópolis?",
+    "answer_pt": "As trilhas mais famosas incluem a da Lagoinha do Leste (nível difícil, vista incrível), a da Costa da Lagoa (com acesso a restaurantes locais) e a do Gravatá. Leve água, protetor solar e vá com calçado adequado.",
+    "question_en": "What are recommended trails in Florianópolis?",
+    "answer_en": "Famous trails include Lagoinha do Leste (difficult, stunning view), Costa da Lagoa (leading to local restaurants), and Gravatá trail. Bring water, sunscreen, and wear proper shoes."
+  },
+  {
+    "id": "faq041",
+    "question_pt": "Como funciona o transporte público em Florianópolis?",
+    "answer_pt": "A cidade tem ônibus integrados com terminais principais como TICEN e TILAG. Use o cartão FloripaCard ou pague em dinheiro. Os horários podem ser espaçados, especialmente aos finais de semana.",
+    "question_en": "How does public transport work in Florianópolis?",
+    "answer_en": "The city has an integrated bus system with main terminals like TICEN and TILAG. Use the FloripaCard or pay in cash. Buses can be less frequent on weekends."
+  },
+  {
+    "id": "faq042",
+    "question_pt": "Há eventos culturais em Florianópolis?",
+    "answer_pt": "Sim! O carnaval de rua é famoso, assim como o Festival de Dança, festas açorianas e o Floripa Jazz Festival. Também há feiras artesanais na Lagoa e no centro histórico.",
+    "question_en": "Are there cultural events in Florianópolis?",
+    "answer_en": "Yes! The street carnival is famous, as well as the Dance Festival, Azorean parties, and the Floripa Jazz Festival. There are also craft fairs in Lagoa and downtown."
+  },
+  {
+    "id": "faq043",
+    "question_pt": "Quais atividades ao ar livre posso fazer em Floripa?",
+    "answer_pt": "Além das praias, é possível praticar surf, kitesurf, parapente (em locais como a Praia Mole), trilhas, stand-up paddle e ciclismo. Floripa é ideal para quem gosta de natureza e esportes.",
+    "question_en": "What outdoor activities can I do in Floripa?",
+    "answer_en": "Besides beaches, you can enjoy surfing, kitesurfing, paragliding (e.g., Praia Mole), hiking, stand-up paddle, and cycling. Floripa is perfect for nature and sports lovers."
+  },
+  {
+    "id": "faq044",
+    "question_pt": "Onde fazer compras e o que levar de lembrança?",
+    "answer_pt": "Visite o Mercado Público, feiras na Lagoa da Conceição e lojas de artesanato. Produtos típicos incluem cerâmica, bijuterias de conchas e cachaças artesanais.",
+    "question_en": "Where to shop and what souvenirs to buy?",
+    "answer_en": "Visit the Public Market, Lagoa da Conceição fairs, and craft stores. Typical items include ceramics, shell jewelry, and local artisanal cachaça."
+  },
+  {
+    "id": "faq045",
+    "question_pt": "É seguro visitar Florianópolis? Alguma dica?",
+    "answer_pt": "Sim, Floripa é relativamente segura, mas evite praias desertas à noite e cuide de seus pertences em locais turísticos. Use protetor solar e prefira água mineral engarrafada.",
+    "question_en": "Is it safe to visit Florianópolis? Any tips?",
+    "answer_en": "Yes, Floripa is relatively safe, but avoid deserted beaches at night and watch your belongings in tourist spots. Use sunscreen and prefer bottled water."
+  },
+  {
+    "id": "faq046",
+    "question_pt": "Quais pratos típicos devo experimentar em Florianópolis?",
+    "answer_pt": "Não deixe de provar a sequência de camarão, ostras frescas, peixe assado e o tradicional pirão. A culinária açoriana influencia muito os sabores locais.",
+    "question_en": "What typical dishes should I try in Florianópolis?",
+    "answer_en": "Don't miss the shrimp sequence, fresh oysters, grilled fish, and the traditional 'pirão'. Azorean cuisine strongly influences local flavors."
+  },
+  {
+    "id": "faq047",
+    "question_pt": "Quais são os melhores bairros para se hospedar em Florianópolis?",
+    "answer_pt": "Lagoa da Conceição é ideal para jovens e vida noturna; Campeche e Jurere Internacional são ótimas opções de praia; Centro é bom para quem busca praticidade.",
+    "question_en": "What are the best neighborhoods to stay in Florianópolis?",
+    "answer_en": "Lagoa da Conceição is ideal for young people and nightlife; Campeche and Jurere Internacional are great beach options; Downtown is good for convenience."
+  },
+  {
+    "id": "faq048",
+    "question_pt": "Onde posso fazer passeios de barco em Florianópolis?",
+    "answer_pt": "Passeios para a Ilha do Campeche, para observar golfinhos, e tours pela Baía dos Golfinhos são populares. Muitas operadoras locais oferecem pacotes turísticos de barco.",
+    "question_en": "Where can I take boat tours in Florianópolis?",
+    "answer_en": "Tours to Campeche Island, dolphin watching, and trips through Dolphin Bay are popular. Many local operators offer boat tour packages."
+  },
+  {
+    "id": "faq049",
+    "question_pt": "Quais informações práticas devo saber antes de viajar para Florianópolis?",
+    "answer_pt": "A moeda é o real (BRL), leve documentos pessoais, use protetor solar, tenha seguro saúde, e em caso de emergência ligue 190 (polícia) ou 192 (ambulância).",
+    "question_en": "What practical information should I know before traveling to Florianópolis?",
+    "answer_en": "The currency is the real (BRL), bring personal ID, use sunscreen, have health insurance, and in emergencies call 190 (police) or 192 (ambulance)."
+  },
+  {
+    "id": "faq050",
+    "question_pt": "Como é a vida noturna em Florianópolis?",
+    "answer_pt": "A vida noturna é agitada especialmente na Lagoa da Conceição, com bares, baladas e música ao vivo. Jurere Internacional tem festas sofisticadas na alta temporada.",
+    "question_en": "How is the nightlife in Florianópolis?",
+    "answer_en": "Nightlife is lively especially in Lagoa da Conceição with bars, clubs, and live music. Jurere Internacional offers sophisticated parties in high season."
+  },
+  {
+    "id": "faq051",
+    "question_pt": "Florianópolis é uma cidade pet friendly?",
+    "answer_pt": "Sim, muitos parques e algumas praias aceitam animais. Restaurantes com áreas externas também costumam ser pet friendly, mas sempre confirme antes de visitar.",
+    "question_en": "Is Florianópolis a pet friendly city?",
+    "answer_en": "Yes, many parks and some beaches allow pets. Restaurants with outdoor areas are usually pet friendly, but always check before visiting."
+  },
+  {
+    "id": "faq052",
+    "question_pt": "Existem opções vegetarianas em Florianópolis?",
+    "answer_pt": "Sim, Florianópolis possui vários restaurantes vegetarianos e opções vegetarianas em restaurantes tradicionais, especialmente na Lagoa da Conceição e Centro.",
+    "question_en": "Are there vegetarian options in Florianópolis?",
+    "answer_en": "Yes, Florianópolis has several vegetarian restaurants and vegetarian options in traditional restaurants, especially in Lagoa da Conceição and downtown."
+  },
+  {
+    "id": "faq053",
+    "question_pt": "Onde encontrar comida vegana em Florianópolis?",
+    "answer_pt": "Há diversas opções de restaurantes veganos e cafés com comidas veganas, principalmente na Lagoa da Conceição e bairros turísticos. Também é comum encontrar feiras com opções naturais.",
+    "question_en": "Where can I find vegan food in Florianópolis?",
+    "answer_en": "There are many vegan restaurants and cafes with vegan food, especially in Lagoa da Conceição and tourist neighborhoods. Natural food markets are also common."
+  },
+  {
+    "id": "faq054",
+    "question_pt": "Florianópolis tem mercados com produtos veganos?",
+    "answer_pt": "Sim, mercados naturais e feiras orgânicas oferecem uma boa variedade de produtos veganos, como leites vegetais, queijos veganos e doces sem ingredientes de origem animal.",
+    "question_en": "Does Florianópolis have markets with vegan products?",
+    "answer_en": "Yes, natural markets and organic fairs offer a good variety of vegan products such as plant-based milks, vegan cheeses, and sweets without animal ingredients."
+  },
+  {
+    "id": "faq055",
+    "question_pt": "Existem eventos gratuitos de jazz em Florianópolis?",
+    "answer_pt": "Sim, Florianópolis frequentemente oferece eventos gratuitos de jazz e música ao vivo em praças, bares e centros culturais, especialmente durante os meses de verão.",
+    "question_en": "Are there free jazz events in Florianópolis?",
+    "answer_en": "Yes, Florianópolis often hosts free jazz and live music events in squares, bars, and cultural centers, especially during the summer months."
+  },
+  {
+    "id": "faq056",
+    "question_pt": "Onde posso encontrar eventos culturais gratuitos na cidade?",
+    "answer_pt": "Muitas praças públicas, centros culturais e a região da Lagoa da Conceição têm programação regular de eventos gratuitos, incluindo música, teatro e exposições.",
+    "question_en": "Where can I find free cultural events in the city?",
+    "answer_en": "Many public squares, cultural centers, and the Lagoa da Conceição area have regular free events including music, theater, and exhibitions."
+  },
+  {
+    "id": "faq057",
+    "question_pt": "Como saber a programação dos eventos gratuitos em Florianópolis?",
+    "answer_pt": "Sites locais, redes sociais de centros culturais e a prefeitura divulgam a programação atualizada de eventos gratuitos na cidade.",
+    "question_en": "How can I find out about free event schedules in Florianópolis?",
+    "answer_en": "Local websites, social media pages of cultural centers, and the city hall publish updated schedules for free events in the city."
+  },
+  {
+    "id": "faq058",
+    "question_pt": "Quais são as trilhas mais bonitas para fazer em Florianópolis?",
+    "answer_pt": "Algumas trilhas populares incluem a Trilha da Lagoinha do Leste, Trilha do Morro da Cruz e Trilha do Gravatá, todas com vistas incríveis e contato direto com a natureza.",
+    "question_en": "What are the most beautiful hiking trails in Florianópolis?",
+    "answer_en": "Popular trails include Lagoinha do Leste Trail, Morro da Cruz Trail, and Gravatá Trail, all offering stunning views and close contact with nature."
+  },
+  {
+    "id": "faq059",
+    "question_pt": "As trilhas são fáceis para iniciantes?",
+    "answer_pt": "Algumas trilhas são moderadas, exigindo preparo físico, mas há opções mais curtas e fáceis para quem está começando.",
+    "question_en": "Are the hiking trails easy for beginners?",
+    "answer_en": "Some trails are moderate and require physical preparation, but there are shorter and easier options for beginners."
+  },
+  {
+    "id": "faq060",
+    "question_pt": "Como funciona o transporte público em Florianópolis?",
+    "answer_pt": "A cidade possui uma rede de ônibus que cobre grande parte das regiões, com integração e tarifas acessíveis.",
+    "question_en": "How does public transportation work in Florianópolis?",
+    "answer_en": "The city has a bus network covering most areas, with integration and affordable fares."
+  },
+  {
+    "id": "faq061",
+    "question_pt": "É fácil usar transporte público para turistas?",
+    "answer_pt": "Sim, há pontos de ônibus próximos às principais atrações e aplicativos ajudam a planejar rotas.",
+    "question_en": "Is it easy for tourists to use public transportation?",
+    "answer_en": "Yes, bus stops are near main attractions, and apps help plan routes."
+  },
+  {
+    "id": "faq062",
+    "question_pt": "Existem opções vegetarianas e veganas em Florianópolis?",
+    "answer_pt": "Sim, a cidade tem muitos restaurantes e cafés que oferecem pratos vegetarianos e veganos de alta qualidade.",
+    "question_en": "Are there vegetarian and vegan options in Florianópolis?",
+    "answer_en": "Yes, the city has many restaurants and cafes offering high-quality vegetarian and vegan dishes."
+  },
+  {
+    "id": "faq063",
+    "question_pt": "Quais são os restaurantes veganos mais recomendados?",
+    "answer_pt": "Alguns dos mais famosos incluem o 'The Green Point', 'Vegana Pan', e o 'Floripa Veg'.",
+    "question_en": "What are some recommended vegan restaurants?",
+    "answer_en": "Some popular ones include 'The Green Point', 'Vegana Pan', and 'Floripa Veg'."
+  },
+  {
+    "id": "faq064",
+    "question_pt": "Quais eventos culturais acontecem em Florianópolis?",
+    "answer_pt": "Florianópolis oferece uma agenda rica com eventos como festivais de jazz, exposições de arte, feiras culturais e apresentações teatrais, muitos gratuitos.",
+    "question_en": "What cultural events take place in Florianópolis?",
+    "answer_en": "Florianópolis has a rich schedule with jazz festivals, art exhibitions, cultural fairs, and theater performances, many of them free."
+  },
+  {
+    "id": "faq065",
+    "question_pt": "Onde posso ouvir música ao vivo em Florianópolis?",
+    "answer_pt": "Bares e casas de show no centro e em bairros como Lagoa da Conceição frequentemente têm música ao vivo, incluindo jazz e música regional.",
+    "question_en": "Where can I listen to live music in Florianópolis?",
+    "answer_en": "Bars and music venues in downtown and neighborhoods like Lagoa da Conceição often feature live music, including jazz and regional genres."
+  },
+  {
+    "id": "faq066",
+    "question_pt": "Posso alugar bicicletas em Florianópolis?",
+    "answer_pt": "Sim, há diversos pontos para aluguel de bicicletas, principalmente nas áreas turísticas, permitindo explorar a cidade de forma sustentável.",
+    "question_en": "Can I rent bicycles in Florianópolis?",
+    "answer_en": "Yes, there are many bike rental spots, especially in tourist areas, allowing you to explore the city sustainably."
+  },
+  {
+    "id": "faq067",
+    "question_pt": "Quais as opções para mobilidade sustentável na cidade?",
+    "answer_pt": "Além das bicicletas, há patinetes elétricos e boas opções de transporte público para deslocamentos ecológicos.",
+    "question_en": "What are the sustainable mobility options in the city?",
+    "answer_en": "Besides bicycles, there are electric scooters and good public transport options for eco-friendly travel."
+  },
+  {
+    "id": "faq068",
+    "question_pt": "Quais pratos típicos devo experimentar em Florianópolis?",
+    "answer_pt": "Não deixe de provar a sequência de camarão, ostras frescas e o tradicional peixe grelhado, especialidades locais.",
+    "question_en": "Which typical dishes should I try in Florianópolis?",
+    "answer_en": "Don't miss the shrimp sequence, fresh oysters, and the traditional grilled fish, local specialties."
+  },
+  {
+    "id": "faq069",
+    "question_pt": "Quais restaurantes têm vista para o mar?",
+    "answer_pt": "Restaurantes em Santo Antônio de Lisboa e no Ribeirão da Ilha oferecem refeições com vista para o mar e frutos do mar frescos.",
+    "question_en": "Which restaurants have a sea view?",
+    "answer_en": "Restaurants in Santo Antônio de Lisboa and Ribeirão da Ilha offer meals with sea views and fresh seafood."
+  }
+]
+
+
+
+

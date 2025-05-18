@@ -1,0 +1,22 @@
+from pymongo import MongoClient
+from config import DB_URI
+
+client = MongoClient(DB_URI)
+db = client["faq_db"]
+faq_collection = db["faq_collection"]
+
+def get_faqs():
+    return list(faq_collection.find({}))
+
+def get_faq_by_id(faq_id):
+    return faq_collection.find_one({"_id": faq_id})
+
+def insert_faq(faq):
+    return faq_collection.insert_one(faq)
+
+def update_faq(faq_id, updated_data):
+    return faq_collection.update_one({"_id": faq_id}, {"$set": updated_data})
+
+def delete_faq(faq_id):
+    return faq_collection.delete_one({"_id": faq_id})
+
