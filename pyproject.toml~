@@ -1,7 +1,0 @@
-[tool.poetry]
-name = "faq-floripa"
-version = "0.1.0"
-description = ""
-authors = ["Thiago Guimarães <thiagodsa@usp.br>"]
-license = "MIT"
-python = ">=3.9"
